@@ -4,7 +4,7 @@
   <div>
 
     <h1> Hugo Ahlberg </h1>
-    <h2 class=Axel>Axel är kort.</h2>
+    <h2 class=Axel>Axel är .</h2>
     <h3 id="number">Inspirerade citat för min webbutvecklingsresa:</h3>
     <!--Under denna kommer vi lägga till fler element-->
     <p id="inspo">
