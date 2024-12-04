@@ -1,9 +1,13 @@
 <script>
+    import { fade } from 'svelte/transition'
+
     let varor=[{name:"Påse", toBuy:true}]
     let vara =""
 
     function add(){
-        varor = [...varor, {name:vara,toBuy:true}]
+        if (vara != ""){
+            varor = [...varor, {name:vara,toBuy:true}]
+        }
     }
 
     function remove(taBortVara){
@@ -41,6 +45,7 @@
                     <li>
                         <button on:click={()=>remove(vara)} class="knapp">{vara.name}</button>
                         <button on:click={()=>bought(vara)}><strong>☐</strong></button>
+                        <hr style= "border-color:black" transition:fade>
                     </li>
                     {/if}
                 {/each}
@@ -55,6 +60,7 @@
                     <li>
                         <button on:click={()=>remove(vara)} class="knapp">{vara.name}</button>
                         <button on:click={()=>notbought(vara)}><strong>☑</strong></button>
+                        <hr style= "border-color:black" transition:fade>
                     </li>
                     {/if}
                 {/each}
@@ -72,11 +78,7 @@
 
 
 <style>
-
-    .knapp {
-        transition: 1000ms flex;
-
-    }
+    
     .knapp:hover {
         text-decoration: line-through;
         
