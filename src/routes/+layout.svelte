@@ -30,6 +30,8 @@
 	padding: 0%;
 	height: 100vh;
 	width: 100vw;
+	cursor:default;
+
 	}    
 
 </style>
@@ -39,6 +41,10 @@
 	<a href="{base}/">Hem</a>
 	<a href="{base}/register">Register</a>
 	<a href="{base}/login">Inloggning</a>
+	<a href="{base}/shoppinglist">Shoppinglist</a>
+
 </nav>
 
 <slot />
+
+
