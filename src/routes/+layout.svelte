@@ -43,6 +43,7 @@
 	<a href="{base}/login">Inloggning</a>
 	<a href="{base}/shoppinglist">Shoppinglist</a>
 	<a href="{base}/memory">Memory</a>
+	<a href="{base}/chat">Chat</a>
 
 
 </nav>
