@@ -172,7 +172,7 @@
 
     .korg{
         position: fixed;
-        right: 150px;
+        right: 50px;
         top: 50px;
         font-size: 800%;
     }
@@ -210,7 +210,7 @@
             position: fixed;
             left: 200px;
             top: 300px;
-            font-size: 150%; 
+            font-size: 100%; 
             background-color: black;
         }
 
@@ -219,7 +219,7 @@
             position: fixed;
             left: 200px;
             top: 200px;
-            font-size: 300%;
+            font-size: 100%;
         }
     }
 
