@@ -44,6 +44,12 @@
 	<a href="{base}/shoppinglist">Shoppinglist</a>
 	<a href="{base}/memory">Memory</a>
 	<a href="{base}/chat">Chat</a>
+	<a href="{base}/search">Search</a>
+	<a href="{base}/ux-login">Casino</a>
+	<a href="{base}/bingo">Bingo</a>
+	<a href="{base}/Alvins webshop">Webshop</a>
+
+
 
 
 </nav>
