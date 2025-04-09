@@ -48,6 +48,8 @@
 	<a href="{base}/ux-login">Casino</a>
 	<a href="{base}/bingo">Bingo</a>
 	<a href="{base}/Alvins webshop">Webshop</a>
+	<a href="{base}/prov">Prov</a>
+
 
 
 
