@@ -1,0 +1,10 @@
+---
+title: "Första bloggen"
+date: "2025-04-23"
+---
+
+Än så länge har jag fixat stylingen på startsidan där man sedan kan välja mellan fyra kategorier. Kategorierna är bilar, mat, musik och sociala medier.
+Man kan välja bilar och därmed komma till en ny sida där man kan välja ett spel. Väljer man top10 kommer man till en ny sida som innehåller 10 bilder och 10 namn.
+Mer än så kan man inte göra på hemsidan ännu men i framtiden ska jag fixa så att det finns spel på bilar kategorin till att börja med.
+
+
